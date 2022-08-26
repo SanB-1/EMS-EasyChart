@@ -1,7 +1,7 @@
 # EMS-EasyChart
-An easy 911-IFT narrative generator for EMS providers.
+An simple 911-IFT narrative generator for EMS providers.
 
 
-Run EZN.py to start the program.
+Run EZ2.py to start the program.
 
 Planned changes: UI
