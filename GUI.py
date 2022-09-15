@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from EZ2WIP import Narrative
+from EasyChart import Narrative
 sg.theme('DarkTeal9')
 
 # Main screen layout
