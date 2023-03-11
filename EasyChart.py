@@ -1,10 +1,12 @@
 class Narrative:
-    srs_list = {1: "Pt is able to stand and pivot onto stair chair with assistance from crew.",
-               2: """The reeves is placed adjacent to pt and was rolled into the device. Straps are applied and pt is\
-lifted by crew. Pt is taken outside where the stretcher is waiting. Litter straps are applied and pt is \
-taken to the ambulance and loaded in, stretcher secured via locking floor mount.""",
-               3: """The sides of the scoop stretcher are aligned with pt and then connected. Pt is lifted from \
-found position and onto litter. Litter straps are applied and pt was taken outside and loaded into the \
+    srs_list = {1: "Pt is able to stand and pivot onto the stair chair with assistance from crew. The patient is then"
+                   "secured with all the appropriate straps",
+               2: """The reeves is placed adjacent to pt, who is rolled into the device. All the appropriate straps are
+                applied and pt is\
+lifted by the crew. Pt is taken outside where the stretcher is waiting. All straps are applied and pt is \
+taken to the ambulance and loaded in, the stretcher is secured via locking floor mount.""",
+               3: """The sides of the scoop stretcher are aligned with the pt and then connected. Pt is lifted from \
+found position and onto the stretcher. All appropriate straps are applied and pt is taken outside and loaded into the \
 ambulance.""",
                4: ""}
     tmethod_list = {
@@ -14,7 +16,7 @@ locked. Pt is taken to the ambulance and loaded in, stretcher secured via lockin
         2: "Pt is able to ambulate from found position and into the ambulance where the stretcher is waiting with \
 assistance from crew. Pt is assisted to a position of comfort, secured via all appropriate safety straps, and \
 the side rails are placed up and locked. The stretcher remains secured via locking floor mounts.",
-        3: "Pt is transferred to our stretcher via sheet lift. Pt is assisted to a position of comfort and secured in \
+        3: "Pt is transferred to the stretcher via sheet lift. Pt is assisted to a position of comfort and secured in \
 with all safety straps. The side rails are placed up and locked. Pt is taken to the ambulance and loaded in \
 while still on stretcher, stretcher secured via locking floor mount.",
         4: "Patient is able to stand and pivot from found position onto the stretcher with assistance from crew. \
