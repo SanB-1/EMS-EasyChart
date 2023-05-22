@@ -1,4 +1,5 @@
 class Narrative:
+
     srs_list = {1: "Pt is able to stand and pivot onto the stair chair with assistance from crew. The patient is then"
                    "secured with all the appropriate straps",
                2: """The reeves is placed adjacent to pt, who is rolled into the device. All the appropriate straps are
@@ -9,6 +10,7 @@ taken to the ambulance and loaded in, the stretcher is secured via locking floor
 found position and onto the stretcher. All appropriate straps are applied and pt is taken outside and loaded into the \
 ambulance.""",
                4: ""}
+
     tmethod_list = {
         1: "Pt is able to ambulate from found position and to the stretcher with assistance from crew. Pt is assisted \
 to a position of comfort and secured in with all appropriate safety straps. The side rails are placed up and \
@@ -23,13 +25,14 @@ while still on stretcher, stretcher secured via locking floor mount.",
 Patient is assisted to a position of comfort and secured in with all appropriate safety straps.  The side \
 rails are placed up and locked. Pt is taken to the ambulance and loaded in, stretcher secured via locking \
 floor mount."}
+
     tmethod2_list = {
         1: "EMS stretcher is aligned with hospital bed and safety straps removed. Pt is transferred from EMS stretcher \
-to hospital bed via sheet lift.",
+to the hospital bed via sheet lift.",
         2: "EMS stretcher is aligned with  bed and safety straps removed. Pt is able to transfer themselves with \
 assistance from staff/crew.",
         3: "The stretcher is lowered to a safe level and the safety straps undone. Pt is able to independently \
-ambulate from EMS stretcher to LGH bed."}
+ambulate from the EMS stretcher to the bed."}
     lifer = "Pt presents with a self-maintained, patent airway and is breathing with no signs of distress or \
 difficulty. No immediate life threats are noted."
 
@@ -41,22 +44,22 @@ difficulty. No immediate life threats are noted."
         if life in [" ", "", 'n', '2']:
             life = self.lifer
         return(f"""****************************************************************************
-    
+
 Crew arrives to scene and finds a {str(age)} YO {sex} {loc} {pos}. {life}
-        
+
 {hpi}
 
-At this time patient believes their condition does not require additional evaluation or treatment at hospital and \
-wishes to refuse transport.
-Risks and consequences of this action explained to patient including unseen illness, injury and/or death. Patient \
-acknowledges understanding these and wishes to sign EMS refusal.
-Refusal form read and explained to patient, whom acknowledged understanding the form and its content and signs without \
-coercion. Patient appears to be competent to make this informed decision.
-They do not appear to be under the influence of mind or mood altering substances, nor do they appear to be a threat to \
-themselves or others.
-    
+At this time patient believes their condition does not require additional evaluation or treatment at hospital an\
+d wishes to refuse transport.
+Risks and consequences of this action explained to patient including unseen illness, injury and/or death. Patie\
+nt acknowledges understanding these and wishes to sign EMS refusal.
+Refusal form read and explained to patient, whom acknowledged understanding the form and its content and signs \
+without coercion. Patient appears to be competent to make this informed decision.
+They do not appear to be under the influence of mind or mood altering substances, nor do they appear to be a th\
+reat to themselves or others.
+
 **** ALL TIMES ARE ESTIMATED ****
-    
+
 {name}
 
 ****************************************************************************""")
@@ -119,8 +122,8 @@ Crew arrives to scene and finds a {str(age)} YO {sex} {loc} {pos}. {life}
 During transport pt is monitored for changes in vitals or alertness, or any new complaints. Pt rests during transport.\
  Pt remains stable during transport.
 
-Upon arrival at the hospital the patient is unloaded from the ambulance and taken inside the emergency department and\
- into the triage area.
+Upon arrival at the hospital the patient is unloaded from the ambulance and taken inside the emergency department and \
+into the triage area.
 The stretcher is lowered to a safe level and the safety straps undone. Pt is able to stand and pivot from EMS stretcher\
  to wheelchair with assistance from crew. Pt is subsequently registered and situated in waiting room.
 Patient care is transferred to the receiving staff after they obtained a comprehensive report from the EMS crew.
